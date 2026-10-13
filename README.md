@@ -48,3 +48,43 @@
 ## Block vs Inline
 - Block ('div', 'p', 'h1', 'section'): starts on a new line, takes the full width.
 - Inline ('a', 'strong', 'span'): sits in the line of text. Ignores width and height.
+
+
+## Flexbox Notes
+
+## dispaly: flex
+- 'display: flex' goes on the PARENT.
+- The parent becomes a flex container. Its direct children become flex items.
+- Only direct children. things inside the children aren't affected.
+
+
+## The two axies
+- Main axis = the direction the items go (horizontal by default)
+- Cross axis = the other direction (vertical by default)
+- 'justify-content' works on the main axis.
+- 'align-items' works on cross axis.
+
+
+## justify-content and gap
+- 'spac-between' = first item at the start, last at the end, and even space between the rest.
+- 'gap' = minimum space between flex items
+
+
+
+
+
+## align-items
+- Default is 'stretch'. thats why flex items are all the same height
+- 'center' lines up their middles
+
+
+
+## flex-direction
+- 'row' (default) = main axis goes left to right
+-'column' = main axis goes top to bottom.
+- Changing direction flips what justify-content and align-items do
+
+
+## flex-wrap
+- Default is 'nowrap'. flex items shrink instead of moving to a new line
+- 'flex-wrap: wrap' lets them drop to the next line.
